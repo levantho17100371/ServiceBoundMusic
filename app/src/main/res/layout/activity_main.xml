@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Music By Thọ"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/btOn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btTualui"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginBottom="20dp"
+        app:icon="@drawable/play" />
+
+    <Button
+        android:id="@+id/btOff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btTua"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="23dp"
+        app:icon="@drawable/stop" />
+
+    <Button
+        android:id="@+id/btTua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="300dp"
+        android:layout_marginLeft="273dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="116dp"
+        app:icon="@drawable/skip_next" />
+
+    <Button
+        android:id="@+id/btTualui"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginBottom="116dp"
+        app:icon="@drawable/skip_previous" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/backgound" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="94dp"
+        android:layout_marginBottom="363dp"
+        app:srcCompat="@drawable/download" />
+
+    <ImageView
+        android:id="@+id/pause"
+        android:layout_width="69dp"
+        android:layout_height="73dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="172dp"
+        android:layout_marginBottom="118dp"
+        app:srcCompat="@drawable/pause" />
+
+    <ImageView
+        android:id="@+id/play"
+        android:layout_width="70dp"
+        android:layout_height="73dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="172dp"
+        android:layout_marginBottom="118dp"
+        app:srcCompat="@drawable/play" />
+
+</RelativeLayout>
